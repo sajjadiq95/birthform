@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>واجهه شهادة ولادة</title>
+    <link type="text/css" rel="stylesheet" href="res/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="res/css/bootstrap-rtl.min.css"/>
+    <link type="text/css" rel="stylesheet" href="res/css/fontawesome.min.css"/>
+    <link type="text/css" rel="stylesheet" href="res/css/main-style.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="res/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="res/js/bootstrap.min.js"></script>
+
+</head>
+<body class="rtl">
+<div class="container-fluid header-nav">
+    <img src="res/ic/qicard.gif" width="5%"/>
+    <span>  تسجيل  مولود جديد</span>
+</div>
+
+<div style="margin: 20px;">
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne" style="background-color: #2980b9;color: #ffffff;">
+                <h5 class="mb-0">
+                    <div style="cursor: pointer" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                         aria-controls="collapseOne">
+                        استمارة تسجيل مولود
+
+                    </div>
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    <div style="border: 1px solid #d2edff">
+                        <div style="background-color: #d2edff;font-size: 20px;padding: 10px;">
+                            <i class="fa fa-child"></i>
+                            معلومات الوليد
+                        </div>
+
+                        <div style="margin: 5px;padding: 5px;">
+                            <form method="post">
+                                <div class="form-row" style="margin: 5px;padding: 5px;">
+                                    <div class="col">
+                                        <label>اسم المولود</label>
+
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col">
+                                        <label> الجنس</label>
+
+                                        <div class="form-group">
+                                            <select class="form-control" id="">
+                                                <option>ذكر</option>
+                                                <option>انثى</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <label>محل الولادة</label>
+
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option>بغداد</option>
+                                                <option>البصرة</option>
+                                                <option>نينوى</option>
+                                                <option>أربيل</option>
+                                                <option>النجف</option>
+                                                <option>ذي_قار</option>
+                                                <option>كركوك</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <label>القضاء</label>
+
+                                        <input type="text" class="form-control">
+                                    </div>
+
+                                </div>
+
+
+                                <div class="form-row" style="margin: 5px;padding: 5px;">
+                                    <div class="col">
+                                        <label>المنطقه</label>
+
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col">
+                                        <label>الناحية</label>
+
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col">
+                                        <label>نوع الولادة</label>
+
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option>طبيعي</option>
+                                                <option>قيصرية</option>
+                                                <option>مفرده</option>
+                                                <option>توم</option>
+                                                <option>اكثر</option>
+
+
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col">
+                                        <label>تاريخ الولادة</label>
+
+                                        <input type="date" class="form-control">
+                                    </div>
+
+
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+                    <div style="border: 1px solid #d2edff;margin-top: 20px;">
+                        <div style="background-color: #d2edff;font-size: 20px;padding: 10px;">
+                            <i class="fa fa-male"></i>
+                            معلومات الاب
+                        </div>
+
+                        <div class="form-row" style="margin: 5px;padding: 5px;">
+                            <div class="col">
+                                <label>الاسم الثلاثي</label>
+
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>العمر</label>
+
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>المهنه</label>
+
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>الجنسية</label>
+
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="col">
+                                <label>الديانه</label>
+
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div style="border: 1px solid #d2edff;margin-top: 20px;">
+                        <div style="background-color: #d2edff;font-size: 20px;padding: 10px;">
+                            <i class="fa fa-female"></i>
+                            معلومات الام
+                        </div>
+
+                        <div class="form-row" style="margin: 5px;padding: 5px;">
+                            <div class="col">
+                                <label>الاسم الثلاثي</label>
+
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>العمر</label>
+
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>المهنه</label>
+
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>الجنسية</label>
+
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="col">
+                                <label>الديانه</label>
+
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="form-row" style="margin: 5px;padding: 5px;">
+                        <!-- TODO::/--->
+
+                        <div class="col">
+                            <label>هل هناك صله قرابه بين الام والاب</label>
+
+                            <div style="    border: 1px solid #d8d5d5;border-radius: 5px;">
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary active">
+                                        <input type="radio" name="options" autocomplete="off" checked>
+                                        توجد
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" name="options" autocomplete="off"> لا توجد
+                                    </label>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="border: 1px solid #d2edff;margin-top: 20px;">
+                        <div style="background-color: #d2edff;font-size: 20px;padding: 10px;">
+                            <i class="fa fa-sistrix"></i>
+                            عدد المواليد السابقه للام عدا هذا الطفل
+                        </div>
+
+                        <div class="form-row" style="margin: 5px;padding: 5px;">
+                            <div class="col">
+                                <label>الاحياء</label>
+
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>المولودين احياء ثم توفوا</label>
+
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>اللذين ولودوا امواتاً</label>
+
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>اللذين ولدوا معوقين</label>
+
+                                <input type="number" class="form-control">
+                            </div>
+
+                            <div class="col">
+                                <label>عدد الاسقاطات ان وجدت</label>
+
+                                <input type="number" class="form-control">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row" style="margin: 5px;padding: 5px;">
+                        <!-- TODO::/--->
+
+                        <div class="col">
+                            <label>هل الولاده الحاليه معوقه</label>
+
+                            <div style="    border: 1px solid #d8d5d5;border-radius: 5px;">
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary active">
+                                        <input type="radio" name="options" autocomplete="off" checked>
+                                        نعم
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" name="options" autocomplete="off"> كلا
+                                    </label>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <label>نوع العوق</label>
+
+                            <input type="text" class="form-control">
+                        </div>
+
+
+                    </div>
+                    <div class="form-row" style="margin: 5px;padding: 5px;">
+                        <!-- TODO::/--->
+
+                        <div class="col">
+                            <label>مدة الحمل</label>
+
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label>وزن الطفل</label>
+
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label>مكان الولاده</label>
+
+                            <div class="form-group">
+                                <select class="form-control">
+                                    <option>البيت</option>
+                                    <option> المستشفى</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label>اسم المستشفى او المركز الصحي</label>
+
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+
+
+                    <div class="form-row" style="margin: 5px;padding: 5px;">
+                        <!-- TODO::/--->
+
+                        <div class="col">
+                            <label> حدثت الولاده بواسطة:</label>
+
+                            <div class="form-group">
+                                <select class="form-control">
+                                    <option>طبيب</option>
+                                    <option>قابله مجازه</option>
+                                    <option> ممرضه مجازه بالتوليد</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <label>رقم الاجازه</label>
+
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label>لسنه</label>
+
+                            <input type="date" class="form-control">
+                        </div>
+
+                    </div>
+
+
+                    <div style="border: 1px solid #d2edff;margin-top: 20px;">
+                        <div style="background-color: #d2edff;font-size: 20px;padding: 10px;">
+                            <i class="fa fa-address-card"></i>
+                            العنوان الدائم لعائلة المولود
+                        </div>
+
+                        <div class="form-row" style="margin: 5px;padding: 5px;">
+                            <div class="col">
+                                <label>رقم الدار</label>
+
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>الزقاق</label>
+
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>المحله او القريهً</label>
+
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>الناحية </label>
+
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="col">
+                                <label>القضاء</label>
+
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div style="border: 1px solid #d2edff;margin-top: 20px;">
+                        <div style="background-color: #d2edff;font-size: 20px;padding: 10px;">
+                            <i class="fa fa-info"></i>
+                            معلومات خاصه بمديرية الجنسية والاحوال المدنية
+                        </div>
+
+                        <div class="form-row" style="margin: 5px;padding: 5px;">
+                            <div class="col">
+                                <label>رقم السجل</label>
+
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>رقم الصحيفه</label>
+
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label>دائة الجنسية والاحوال</label>
+
+                                <input type="text" class="form-control">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+</div>
+
+</body>
+</html>
